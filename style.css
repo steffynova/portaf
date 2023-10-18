@@ -123,3 +123,52 @@ footer ul li a {
 footer ul li a:hover {
     text-decoration: underline;
 }
+
+/* Estilos CSS para las tablas */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    border: 3px solid #0e351b;
+    background-color: #d5f1e2;
+
+
+}
+
+td {
+    color: #0c0101;
+}
+
+th {
+    background-color: #124b0d;
+    font-weight: bold;
+    color: #ccc;
+}
+
+.tabla-container {
+    max-width: 80%;
+}
+.listado-container {
+    max-width: 70%;
+}
+.boton-container {
+    margin-block: 30px;
+}
+a{
+    text-decoration: none;
+}
+.listado-servicios a {
+    color: #3e4a8e;
+    font-size: 30px;
+}
+
+.listado-servicios li::marker {
+    content: 🐾;
+}
